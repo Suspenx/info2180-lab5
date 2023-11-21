@@ -41,3 +41,37 @@ section.main{
 }
 
 
+.buttons {
+    display:flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+#result {
+    display:flex;
+    justify-content: center;
+}
+
+#lookup_cities {
+    background-color: #28ffa5;
+    border: 0;
+    border-radius: .5rem;
+    height: fit-content;
+    padding: 1rem 1.5rem;
+   
+}
+
+#lookup_countries {
+    background-color: #28ffa5;
+    border: 0;
+    border-radius: .5rem;
+    height: fit-content;
+    padding: 1rem 2rem;
+}
+
+
+#country {
+    height: 3rem;
+    width: 700px;
+    border-radius: 5px;
+}
