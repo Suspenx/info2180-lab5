@@ -46,10 +46,16 @@ if ($_SERVER['REQUEST_METHOD']=== "GET") {
   <tr>
     <th>Name</th>
     <th>Continent</th>
-
+    <th>Independence</th>
+    <th>Head_of_State</th>
+  </tr>
+  <?php foreach ($results as $row): ?>
+    <tr>
+      <td><?= $row["name"]; ?></td>
+      <td><?= $row["continent"]; ?></td>
+      <td><?= $row["independence_year"]; ?></td>
       <td><?= $row["head_of_state"]; ?></td>
     </tr>
   <?php endforeach; ?>
   <?php endif?>
-  
 </table>
