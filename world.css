@@ -75,3 +75,21 @@ section.main{
     width: 700px;
     border-radius: 5px;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    padding: .9rem;
+}
+
+td {
+    padding: .9rem;
+}
+
+#result{
+    text-align: center;
+}
